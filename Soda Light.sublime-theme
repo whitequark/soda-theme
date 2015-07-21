@@ -193,7 +193,7 @@
 
     {
         "class": "tab_label",
-        "font.size": 14.0,
+        "font.size": 14,
         "fade": true,
         "fg": [50, 50, 50],
         "shadow_color": [235, 235, 235],
@@ -420,7 +420,8 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [0, 0, 0],
+        "font.size": 18
     },
 
 //

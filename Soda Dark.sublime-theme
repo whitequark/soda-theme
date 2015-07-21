@@ -193,7 +193,7 @@
 
     {
         "class": "tab_label",
-        "font.size": 18,
+        "font.size": 14,
         "fade": true,
         "fg": [170, 170, 170],
         "shadow_color": [25, 25, 25],
