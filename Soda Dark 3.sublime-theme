@@ -41,7 +41,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, 3, 7, 3]
+        "content_margin": [12, 3, 7, 5]
     },
     // Tab hover state
     {
@@ -207,7 +207,9 @@
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1],
         "font.italic": false,
-        "font.size": 13
+        "font.size": 14,
+        // This doesn't get cut off
+        "font.face": "Liberation Sans"
     },
     {
         "class": "tab_label",
@@ -487,7 +489,8 @@
     {
         "class": "label_control",
         "color": [204, 204, 204],
-        "font.size": 14
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
     // Text field labels
     {
@@ -495,7 +498,8 @@
         "parents": [{"class": "panel_control"}],
         "shadow_color": [50, 50, 50],
         "shadow_offset": [0, -1],
-        "font.size": 13
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
     // Button labels
     {
@@ -503,7 +507,8 @@
         "parents": [{"class": "button_control"}],
         "shadow_color": [55, 55, 55],
         "shadow_offset": [0, -1],
-        "font.size": 13
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
 
 //
@@ -522,7 +527,8 @@
     {
         "class": "tool_tip_label_control",
         "color": [0, 0, 0],
-        "font.size": 14
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
 
 //
@@ -549,7 +555,8 @@
         "color": [150, 150, 150],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1],
-        "font.size": 13
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
 
 //
@@ -567,7 +574,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 5],
+        "row_padding": [8, 2],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
@@ -591,6 +598,8 @@
         "class": "sidebar_heading",
         "color": [210, 210, 210],
         "font.bold": true,
+        "font.size": 14,
+        "font.face": "Noto Sans",
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
     },
@@ -608,7 +617,8 @@
         "shadow_offset": [0, -1],
         "font.bold": false,
         "font.italic": false,
-        "font.size": 14
+        "font.size": 15,
+        "font.face": "Noto Sans"
     },
     // Sidebar folder entry
     {
