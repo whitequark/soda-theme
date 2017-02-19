@@ -206,7 +206,8 @@
         "fg": [170, 170, 170],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1],
-        "font.italic": false
+        "font.italic": false,
+        "font.size": 13
     },
     {
         "class": "tab_label",
@@ -561,7 +562,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        "row_padding": [8, 5],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
@@ -601,7 +602,8 @@
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.bold": false,
-        "font.italic": false
+        "font.italic": false,
+        "font.size": 14
     },
     // Sidebar folder entry
     {
