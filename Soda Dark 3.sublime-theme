@@ -127,12 +127,12 @@
         "content_margin": [0, 0],
         "layer0.texture": "Theme - Soda/Soda Dark/tab-close-inactive@2x.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": 0
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8, 8]
+        "content_margin": [10, 10],
+        "layer0.inner_margin": [4, 4]
     },
     {
         "class": "tab_close_button",
@@ -208,8 +208,7 @@
         "shadow_offset": [0, -1],
         "font.italic": false,
         "font.size": 14,
-        // This doesn't get cut off
-        "font.face": "Liberation Sans"
+        "font.face": "Noto Sans"
     },
     {
         "class": "tab_label",
@@ -909,14 +908,16 @@
         "fg": [210, 210, 210, 255],
         "match_fg": [126, 199, 239, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [166, 229, 255, 255]
+        "selected_match_fg": [166, 229, 255, 255],
+        "font.face": "Noto Sans"
     },
     {
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
         "match_fg": [220, 220, 220, 255],
         "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255]
+        "selected_match_fg": [220, 220, 220, 255],
+        "font.face": "Noto Sans"
     },
     {
         "class": "quick_panel_score_label",
